@@ -1,0 +1,13 @@
+[mediaTypes]
+  [mediaTypes."application/javascript"]
+    suffixes = ["js"]
+
+[outputs]
+  [outputs.admin]
+    "HTML" = ["HTML"]
+
+[outputFormats]
+  [outputFormats.admin]
+    mediaType = "text/html"
+    baseName = "index"
+    isPlainText = false
